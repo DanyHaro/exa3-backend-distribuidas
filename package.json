@@ -4,7 +4,7 @@
   "description": "Examen final de distribuidas",
   "main": "index.js",
   "scripts": {
-    "start": "app.js",
+    "start": "node ./src/index",
     "dev": "nodemon src/index.js --exec babel-node"
   },
   "author": "Dany Richard Haro Ortiz",
