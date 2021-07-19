@@ -1,10 +1,11 @@
 {
   "name": "examen3-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Examen final de distribuidas",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js --exec babel-node"
   },
   "author": "Dany Richard Haro Ortiz",
