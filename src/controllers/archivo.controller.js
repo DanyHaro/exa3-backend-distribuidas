@@ -1,4 +1,5 @@
-import { pool } from '../database'
+// import { pool } from '../database'
+const pool = require('../database')
 
 
 export const getAllarchivo = async (req, res) => {

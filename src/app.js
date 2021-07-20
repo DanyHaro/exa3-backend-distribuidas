@@ -1,6 +1,10 @@
-import express from "express";
-import morgan from "morgan";
-import allRoutes from "./allRoutes";
+// import express from "express";
+// import morgan from "morgan";
+// import allRoutes from "./allRoutes";
+const express  = require('express')
+const morgan  = require('morgan')
+const allRoutes  = require('/allRoutes')
+
 
 const app = express();
 var cors = require("cors");

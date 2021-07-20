@@ -1,5 +1,6 @@
-import { pool } from '../database'
+// import { pool } from '../database'
 const jwt = require('jsonwebtoken')
+const pool = require('../database')
 
 export const getAllusuario = async (req, res) => {
     try {

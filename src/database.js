@@ -1,4 +1,5 @@
-import { Pool } from 'pg'
+// import { Pool } from 'pg'
+const Pool = require('pg')
 
 
 export const pool = new Pool({

@@ -1,4 +1,5 @@
-import express, { Router } from "express";
+// import express, { Router } from "express";
+const express  = require('express')
 const appe = express();
 
 const usuario = require('./routes/usuario.routes');
